@@ -366,6 +366,32 @@ header .main-header-content .background-graphic {
 
 /* footer */
 footer {
-  height: 100px;
   background: #333;
+  color: #fff;
+}
+
+footer .container {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+footer .container .right-side {
+  display: flex;
+}
+
+footer .right-side .logo img {
+  color: #fff;
+}
+
+footer .container .right-side a {
+  color: #fff;
+  margin: 0 20px;
+}
+
+footer .container .left-side img {
+  margin: 0 10px;
+  cursor: pointer;
 }
