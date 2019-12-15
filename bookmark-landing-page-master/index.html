@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Bookmark landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style> -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left-nav">
+          <img src="./images/logo-bookmark.svg" />
+        </div>
+        <div class="right-nav">
+          <a href="#" class="nav-item">Features</a>
+          <a href="#" class="nav-item">Pricing</a>
+          <a href="#" class="nav-item">Contact</a>
+          <a href="#" class="nav-item auth">Login</a>
+        </div>
+      </nav>
+      <div class="main-header-content">
+        <div class="container">
+          <div class="details">
+            <h1>A Simple Bookmark Manager</h1>
+            <p>
+              A clean and simple interface to organize your favourite websites.
+              Open a new browser tab and see your sites load instantly. Try it
+              for free.
+            </p>
+            <button class="header-btn chrome-addn">
+              Get it on Chrome
+            </button>
+            <button class="header-btn firefox-addn">
+              Get it on Firefox
+            </button>
+          </div>
+          <div class="graphics">
+            <img src="./images/illustration-hero.svg" alt="hero" />
+          </div>
+        </div>
+        <div class="background-graphic"></div>
+      </div>
+    </header>
+    <section class="features">
+      <div class="top-content">
+        <h1 class="title">
+          Features
+        </h1>
+        <p>
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+        <ul class="options">
+          <li class="active">Simple Bookmarking</li>
+          <li>Speedy Searching</li>
+          <li>
+            Easy Sharing
+          </li>
+        </ul>
+      </div>
+      <div class="main-content">
+        <div class="graphics">
+          <img src="./images/illustration-features-tab-1.svg" />
+        </div>
+        <div class="info">
+          <h1>Bookmark in one click</h1>
+          <p>
+            Organize your bookmarks however you like. Our simple drag-and-drop
+            interface gives you complete control over how you manage your
+            favourite sites.
+          </p>
+          <h4>More Info</h4>
+        </div>
+      </div>
+      <div class="background-graphic"></div>
+    </section>
+    <section class="download">
+      <h1>Download the extension</h1>
+      <p>
+        We’ve got more browsers in the pipeline. Please do let us know if you’ve
+        got a favourite you’d like us to prioritize.
+      </p>
+      <div class="browsers-addn">
+        <div class="browser chrome">
+          <img src="images/logo-chrome.svg" alt="chrome" />
+          <h3>Add to chrome</h3>
+          <p>Minimum version 62</p>
+          <div class="line"></div>
+          <button>Install to chrome</button>
+        </div>
+        <div class="browser firefox">
+          <img src="./images/logo-firefox.svg" alt="firefox" />
+          <h3>Add to Firefox</h3>
+          <p>Minimum version 55</p>
+          <div class="line"></div>
+          <button>Install to chrome</button>
+        </div>
+        <div class="browser opera">
+          <img src="./images/logo-opera.svg" alt="opera" />
+          <h3>Add to Opera</h3>
+          <p>Minimum version 46</p>
+          <div class="line"></div>
+          <button>Install to chrome</button>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <h1>Frequently Asked Questions</h1>
+      <p>
+        Here are some of our FAQs. If you have any other questions you’d like
+        answered please feel free to email us.
+      </p>
+      <div class="questions">
+        <div class="question">
+          <div class="text">
+            What is Bookmark?
+          </div>
+          <div class="ans-opener">
+            <img src="./images/icon-arrow.svg" alt="" />
+          </div>
+        </div>
+        <div class="question">
+          <div class="text">
+            How can I request a new browser?
+          </div>
+          <div class="ans-opener">
+            <img src="./images/icon-arrow.svg" alt="" />
+          </div>
+        </div>
+        <div class="question">
+          <div class="text">
+            Is there a mobile app?
+          </div>
+          <div class="ans-opener">
+            <img src="./images/icon-arrow.svg" alt="" />
+          </div>
+        </div>
+        <div class="question last-faq">
+          <div class="text">
+            What about other Chromium browsers?
+          </div>
+          <div class="ans-opener">
+            <img src="./images/icon-arrow.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <p class="more-info">
+        More Info
+      </p>
+    </section>
+    <section class="contact">
+      <p>35,000+ ALREADY JOINED</p>
+      <h1>Stay up-to-date with what we're doing</h1>
+      <div class="form">
+        <input placeholder="enter your email address..." type="text" />
+        <button>Contact Us</button>
+      </div>
+    </section>
+    <footer></footer>
+
+    <!-- Add to Chrome Minimum version 62 Add & Install Extension Add to Firefox
+    Minimum version 55 Add & Install Extension Add to Opera Minimum version 46
+    Add & Install Extension Frequently Asked Questions  -->
+
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+  </body>
+</html>

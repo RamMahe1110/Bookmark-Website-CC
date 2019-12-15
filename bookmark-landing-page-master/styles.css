@@ -1,0 +1,371 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+/* header */
+
+header nav {
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto 150px auto;
+}
+
+header nav .right-nav {
+  margin: 0 100px 0 0;
+}
+
+header nav .right-nav a {
+  padding: 10px 30px;
+  color: rgb(148, 148, 148);
+}
+
+header nav .right-nav .auth {
+  background: #f7645e;
+  background: #4e64d6;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 10px;
+  padding: 10px 30px;
+}
+
+header .main-header-content {
+  position: relative;
+}
+
+header .main-header-content .container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 80%;
+  margin: 100px auto;
+}
+
+header .main-header-content .container .details h1 {
+  margin: 50px 0 30px 0;
+  font-size: 2.5vw;
+  width: 80%;
+}
+
+header .main-header-content .container .details p {
+  margin: 0 0 50px 0;
+  width: 80%;
+  font-size: 1.1vw;
+  font-weight: 400;
+  color: rgb(173, 173, 173);
+}
+
+header .main-header-content .container .details .header-btn {
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 20px 0 0;
+  background: #f9f9f9;
+  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+header .main-header-content .container .details .chrome-addn {
+  background: #4e64d6;
+  color: #fff;
+}
+
+header .main-header-content .container .graphics img {
+  width: 100%;
+}
+
+header .main-header-content .background-graphic {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #4e64d6;
+  width: 40%;
+  height: 400px;
+  -webkit-clip-path: circle(50% 65% at 70% 50%);
+  clip-path: circle(50% 65% at 70% 50%);
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  z-index: -1;
+}
+
+/* features */
+.features {
+  position: relative;
+}
+
+.features h1 {
+  text-align: center;
+  margin: 150px 0 30px 0;
+  font-size: 2vw;
+}
+
+.features p {
+  width: 30%;
+  margin: 0 auto 50px auto;
+  color: rgb(173, 173, 173);
+  text-align: center;
+  font-size: 1vw;
+}
+
+.features .options {
+  display: flex;
+  justify-content: center;
+}
+
+.features .options li {
+  padding: 20px 50px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  font-size: 1vw;
+  cursor: pointer;
+  color: rgb(148, 148, 148);
+}
+
+.features .options .active {
+  border-bottom: 5px solid #f7645e;
+  color: #333;
+}
+
+.features .main-content {
+  margin: 100px auto 250px auto;
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.features .main-content .graphics img {
+  width: 100%;
+}
+
+.features .main-content .info {
+  padding: 0 100px;
+}
+
+.features .main-content .info h1 {
+  text-align: left;
+  margin: 80px 0 20px 0;
+  font-size: 2vw;
+}
+
+.features .main-content .info p {
+  text-align: left;
+  margin: 0 0 50px 0;
+  width: 100%;
+  font-size: 1.2vw;
+}
+
+.features .main-content .info h4 {
+  background: #4e64d6;
+  color: #fff;
+  padding: 15px 20px;
+  width: 25%;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+.features .background-graphic {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(0%, 30%);
+  background-color: #4e64d6;
+  width: 40%;
+  height: 400px;
+  -webkit-clip-path: ellipse(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  clip-path: ellipse(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  z-index: -1;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+/* download */
+
+.download {
+  margin: 0 0 150px 0;
+}
+
+.download h1 {
+  text-align: center;
+  font-size: 2vw;
+  margin: 0 0 30px 0;
+}
+
+.download p {
+  width: 35%;
+  text-align: center;
+  color: rgb(173, 173, 173);
+  margin: 0 auto 100px auto;
+  font-size: 1vw;
+}
+
+.download .browsers-addn {
+  max-width: 1000px;
+  margin: 0 auto 0px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+
+.download .browsers-addn .browser {
+  text-align: center;
+
+  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  height: 350px;
+}
+
+.download .browsers-addn .firefox {
+  margin: 50px 0 0 0;
+}
+
+.download .browsers-addn .opera {
+  margin: 100px 0 0 0;
+}
+
+.download .browsers-addn .browser img {
+  margin: 25px 0;
+}
+
+.download .browsers-addn .browser h3 {
+  margin: 0 0 10px 0;
+}
+
+.download .browsers-addn .browser p {
+  color: rgb(173, 173, 173);
+  font-size: 0.7vw;
+  width: 100%;
+  margin: 0 0 30px 0;
+}
+
+.download .browsers-addn .browser .line {
+  height: 2px;
+
+  background: rgba(0, 0, 0, 0.09);
+  width: 20%;
+
+  margin: 0 auto 30px auto;
+}
+
+.download .browsers-addn .browser button {
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+
+  border: none;
+  border-radius: 5px;
+  background: #4e64d6;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* faq */
+.faq {
+  margin: 0 0 100px 0;
+}
+
+.faq h1 {
+  text-align: center;
+  font-size: 2vw;
+  margin: 0 0 30px 0;
+}
+
+.faq p {
+  width: 35%;
+  text-align: center;
+  color: rgb(173, 173, 173);
+  margin: 0 auto 80px auto;
+  font-size: 1vw;
+}
+
+.faq .questions {
+  max-width: 35%;
+  margin: auto;
+}
+
+.faq .questions .question {
+  padding: 20px 20px 20px 0;
+  border-top: 1px solid rgb(200, 200, 200);
+  display: flex;
+}
+
+.faq .questions .last-faq {
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.faq .questions .question .text {
+  font-weight: 600;
+  font-size: 1vw;
+  width: 95%;
+}
+
+.faq .more-info {
+  width: 7%;
+  margin: 80px auto 0 auto;
+  border: none;
+  padding: 13px 10px;
+  text-align: center;
+  background: #4e64d6;
+  color: #fff;
+  font-size: 0.8vw;
+  border-radius: 5px;
+}
+
+/* contact */
+
+.contact {
+  background: #4e64d6;
+  color: #fff;
+  text-align: center;
+}
+
+.contact p {
+  padding: 40px 0;
+  font-size: 1vw;
+}
+
+.contact h1 {
+  font-size: 2vw;
+  margin: 0 0 40px 0;
+}
+
+.contact .form {
+  padding: 0 0 70px 0;
+  width: 600px;
+  margin: auto;
+}
+
+.contact .form input {
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  margin: 0 15px 0 0;
+}
+
+.contact .form button {
+  border: none;
+  background: rgb(250, 32, 32);
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px 0;
+  width: 20%;
+}
+
+/* footer */
+footer {
+  height: 100px;
+  background: #333;
+}
